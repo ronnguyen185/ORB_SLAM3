@@ -1,0 +1,4 @@
+Examples_old/Stereo/stereo_kitti_old Vocabulary/ORBvoc.txt Examples_old/Stereo/RealSense_D435i.yaml /media/ron/DATA-UBUNTU/Dataset/20220426_PhenikaaUni/IR
+
+
+Examples/Stereo-Inertial/stereo_inertial_euroc Vocabulary/ORBvoc.txt Examples/Stereo-Inertial/EuRoC.yaml /media/ron/DATA-UBUNTU/RON-PC/MH_01_easy Examples/Stereo-Inertial/EuRoC_TimeStamps/MH01.txt
