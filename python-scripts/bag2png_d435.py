@@ -20,7 +20,7 @@ import string
 # os.mkdir('infrared_R')
 # FILENAME = '20220426_170330.bag'
 FILENAME = '2022-05-11-16-45-06.bag'
-ROOT_DIR = '/media/ron/DATA-UBUNTU-2/ros_realsense2_bag_file/'
+ROOT_DIR = '/home/quangnm/Desktop/rosbag_file/'
 
 
 

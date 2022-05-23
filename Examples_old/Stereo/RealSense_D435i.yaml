@@ -5,29 +5,41 @@
 #--------------------------------------------------------------------------------------------
 Camera.type: "PinHole"
 
+# # Left Camera calibration and distortion parameters (OpenCV)
+# Camera.fx: 382.613
+# Camera.fy: 382.613
+# Camera.cx: 320.183
+# Camera.cy: 236.455
+
+# # distortion parameters
+# Camera.k1: 0.0
+# Camera.k2: 0.0
+# Camera.p1: 0.0
+# Camera.p2: 0.0
+
 # Left Camera calibration and distortion parameters (OpenCV)
-Camera.fx: 382.613
-Camera.fy: 382.613
-Camera.cx: 320.183
-Camera.cy: 236.455
+Camera.fx: 428.949
+Camera.fy: 428.039
+Camera.cx: 428.018
+Camera.cy: 235.200
 
 # distortion parameters
-Camera.k1: 0.0
-Camera.k2: 0.0
-Camera.p1: 0.0
-Camera.p2: 0.0
+Camera.k1: -0.004
+Camera.k2: 0.09
+Camera.p1: -0.004
+Camera.p2: 0.0006
 
 # Right Camera calibration and distortion parameters (OpenCV)
-Camera2.fx: 382.613
-Camera2.fy: 382.613
-Camera2.cx: 320.183
-Camera2.cy: 236.455
+Camera2.fx: 428.949
+Camera2.fy: 428.039
+Camera2.cx: 428.018
+Camera2.cy: 235.200
 
 # distortion parameters
-Camera2.k1: 0.0
-Camera2.k2: 0.0
-Camera2.p1: 0.0
-Camera2.p2: 0.0
+Camera2.k1: -0.004
+Camera2.k2: 0.09
+Camera2.p1: -0.004
+Camera2.p2: 0.0006
 
 Tlr: !!opencv-matrix
   rows: 3
@@ -44,7 +56,7 @@ Camera.width: 848
 Camera.height: 480
 
 # Camera frames per second 
-Camera.fps: 30.0
+Camera.fps: 60.0
 
 # Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
 Camera.RGB: 1

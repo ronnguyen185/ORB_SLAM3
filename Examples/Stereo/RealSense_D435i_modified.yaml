@@ -6,28 +6,28 @@
 Camera.type: "PinHole"
 
 # Left Camera calibration and distortion parameters (OpenCV)
-Camera.fx: 382.613
-Camera.fy: 382.613
-Camera.cx: 320.183
-Camera.cy: 236.455
+Camera.fx: 428.949
+Camera.fy: 428.039
+Camera.cx: 428.018
+Camera.cy: 235.200
 
 # distortion parameters
-Camera.k1: 0.0
-Camera.k2: 0.0
-Camera.p1: 0.0
-Camera.p2: 0.0
+Camera.k1: -0.004
+Camera.k2: 0.09
+Camera.p1: -0.004
+Camera.p2: 0.0006
 
 # Right Camera calibration and distortion parameters (OpenCV)
-Camera2.fx: 382.613
-Camera2.fy: 382.613
-Camera2.cx: 320.183
-Camera2.cy: 236.455
+Camera2.fx: 428.949
+Camera2.fy: 428.039
+Camera2.cx: 428.018
+Camera2.cy: 235.200
 
 # distortion parameters
-Camera2.k1: 0.0
-Camera2.k2: 0.0
-Camera2.p1: 0.0
-Camera2.p2: 0.0
+Camera2.k1: -0.004
+Camera2.k2: 0.09
+Camera2.p1: -0.004
+Camera2.p2: 0.0006
 
 Tlr: !!opencv-matrix
   rows: 3
@@ -50,12 +50,12 @@ Camera.fps: 60.0
 Camera.RGB: 1
 
 # Image scale, it changes the image size to be processed (<1.0: reduce, >1.0: increase)
-Camera.imageScale: 0.5 # 0.5 #0.7071 # 1/sqrt(2)
+Camera.imageScale: 0.701 # 0.5 #0.7071 # 1/sqrt(2)
 
 # Close/Far threshold. Baseline times.
-ThDepth: 40.0
+ThDepth: 50.0
 # stereo baseline times fx
-Camera.bf: 19.114771561
+Camera.bf: 21.44745
 
 #--------------------------------------------------------------------------------------------
 # ORB Parameters
@@ -74,18 +74,18 @@ ORBextractor.nLevels: 8
 # Firstly we impose iniThFAST. If no corners are detected we impose a lower value minThFAST
 # You can lower these values if your images have low contrast			
 ORBextractor.iniThFAST: 20
-ORBextractor.minThFAST: 7
+ORBextractor.minThFAST: 5
 
 #--------------------------------------------------------------------------------------------
 # Viewer Parameters
 #--------------------------------------------------------------------------------------------
-Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameSize: 0.1
 Viewer.KeyFrameLineWidth: 1
-Viewer.GraphLineWidth: 0.9
+Viewer.GraphLineWidth: 1
 Viewer.PointSize: 2
-Viewer.CameraSize: 0.08
-Viewer.CameraLineWidth: 3
+Viewer.CameraSize: 0.15
+Viewer.CameraLineWidth: 2
 Viewer.ViewpointX: 0
-Viewer.ViewpointY: -0.7
+Viewer.ViewpointY: -10
 Viewer.ViewpointZ: -3.5
-Viewer.ViewpointF: 500
+Viewer.ViewpointF: 2000

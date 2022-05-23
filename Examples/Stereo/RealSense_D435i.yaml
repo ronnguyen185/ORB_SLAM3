@@ -8,10 +8,10 @@ File.version: "1.0"
 Camera.type: "Rectified"
 
 # Rectified Camera calibration and distortion parameters (OpenCV)
-Camera1.fx: 382.613
-Camera1.fy: 382.613
-Camera1.cx: 320.183
-Camera1.cy: 236.455
+Camera1.fx: 650.296
+Camera1.fy: 648.195
+Camera1.cx: 649.060
+Camera1.cy: 355.939
 
 Stereo.b: 0.0499585
 
